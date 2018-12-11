@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="SplashActivitytheme" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+
+
+    <style name="MainActivityTheme" parent = "Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/purple</item>
+        <item name="titleTextStyle">@style/MyActionBarTitle</item>
+    </style>
+
+    <style name="MyActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionBarText</item>
+    </style>
+    <style name="MyTheme" parent="Theme.AppCompat.NoActionBar">
+            <item name="android:windowBackground">@color/purple</item>
+    </style>
+
+
+
+
+    <style name="ScoreActivityTheme" parent = "Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/ScoreActivityActionBar</item>
+
+    </style>
+
+    <style name="ScoreActivityActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/p</item>
+        <item name="titleTextStyle">@style/ScoreActivityActionBarActionBarTitle</item>
+    </style>
+
+
+    <style name="ScoreActivityActionBarActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/purple</item>
+    </style>
+    <style name="MyScore" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@color/purple</item>
+    </style>
+
+
+
+</resources>

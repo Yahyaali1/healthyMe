@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jamsh.healthme.show">
+<!--
+ <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:onClick="gogo"
+            />
+
+-->
+
+    <TextView
+        android:id="@+id/awaien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WALKING"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/actionBarText"
+        android:textSize="40dp"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/data1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/awaien"
+        android:layout_centerInParent="true"
+        android:textColor="@color/actionBarText"
+        android:textSize="100dp"
+        android:text="2344"
+        android:fontFamily="serif-monospace"/>
+
+    <TextView
+        android:id="@+id/awaien2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/data1"
+        android:layout_centerInParent="true"
+        android:textColor="@color/actionBarText"
+        android:text="TOTAL STEPS THIS MONTH"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        />
+
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/awaien2"
+        android:layout_marginTop="20dp"
+        android:background="#D3D3D3" />
+
+
+    <TextView
+        android:id="@+id/awaien3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:layout_centerInParent="true"
+        android:textColor="@color/actionBarText"
+        android:text="RUNNING"
+        android:fontFamily="serif-monospace"
+        android:textSize="40dp"
+        />
+
+
+    <TextView
+        android:id="@+id/data2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/awaien3"
+        android:layout_centerInParent="true"
+        android:textColor="@color/actionBarText"
+        android:textSize="100dp"
+        android:text="2344"
+        android:fontFamily="serif-monospace"/>
+
+
+    <TextView
+        android:id="@+id/awaien4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/data2"
+        android:layout_centerInParent="true"
+        android:textColor="@color/actionBarText"
+        android:text="TOTAL KM THIS MONTH"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        />
+
+
+</RelativeLayout>

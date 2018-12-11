@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadius="0dp"
+    android:shape="ring"
+    android:thicknessRatio="2"
+    android:useLevel="false" >
+    <corners android:radius="10dip"/>
+    <solid android:color="@color/actionBarText" />
+    <stroke
+        android:width="30dp"
+        android:color="@color/colorPrimary"
+
+        />
+        <gradient
+        android:angle="360"
+        android:centerColor="#e95a22"
+        android:endColor="#ff00b5"
+        android:gradientRadius="360"
+        android:startColor="#006386"
+        android:type="sweep" />
+
+    <size android:width="270dp"
+        android:height="270dp" />
+</shape>
+
+
+    <!--
+
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape android:shape="ring" >
+
+            <stroke
+                android:width="2dp"
+                android:color="#ff207d94" />
+        </shape>
+    </item>
+</layer-list>
+
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        android:thicknessRatio="2"
+        android:useLevel="false" >
+        <corners android:radius="10dp"/>
+        <solid android:color="@color/colorAccent" />
+        <stroke
+            android:width="30dp"
+            android:color="@color/colorPrimary" />
+        <size android:width="270dp"
+            android:height="270dp" />
+    </shape>
+
+    -->

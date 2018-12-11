@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HealthMe</string>
+    <string name="summary"><b>SUMMARY</b></string>
+    <string name="walking"><b>START WALKING</b></string>
+    <string name="running"><b>START RUNNING</b></string>
+    <string name="bicycling"><b>START BICYCLING</b></string>
+    <string name="Previous"><b>Previous Data</b></string>
+    <string name="y">YOUR  DATA</string>
+
+</resources>
